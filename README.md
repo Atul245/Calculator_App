@@ -32,7 +32,7 @@ To get started with building the Windows Forms Calculator, follow these steps:
 9. Once the project is built successfully, you can run the calculator by clicking on the "Start" button or pressing `F5`.
 
 ## Calculator Screenshot
-[image](https://github.com/Atul245/Calculator_App/assets/98544302/83f56761-b840-4ba1-8e4f-ff1d17606612))
+(https://github.com/Atul245/Calculator_App/assets/98544302/83f56761-b840-4ba1-8e4f-ff1d17606612))
 
 
 ## Contributing
