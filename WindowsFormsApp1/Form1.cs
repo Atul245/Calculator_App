@@ -76,8 +76,17 @@ namespace WindowsFormsApp1
                 case "*":
                     resultBox.Text = (resultValue * Double.Parse(resultBox.Text)).ToString();
                     break;
-                case "%":
-                    resultBox.Text = (resultValue / Double.Parse(resultBox.Text)).ToString();
+                                case "%":
+                    double divisor = Double.Parse(resultBox.Text);
+                    if (divisor != 0)
+                    {
+                        resultBox.Text = (resultValue / divisor).ToString();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error: Division by zero is not allowed.", "Divide By Zero", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        resultBox.Text = "0";
+                    }
                     break;
                 default:
                     break;
